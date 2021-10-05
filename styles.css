@@ -1,0 +1,122 @@
+body {
+    background-color: hsl(218, 23%, 79%);
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+.container-fluid {
+    width: 50%;
+    margin-top: 5%; 
+    margin-bottom: 4%;
+}
+
+.box {
+    padding: 40px 40px;
+}
+
+h1,h2,h3,h4,.btn{
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+    margin: 0;
+}
+
+h2 {
+    color:hsl(200, 24%, 93%);
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+/* Upper box */
+#main-box {
+    background-color: hsl(200, 24%, 93%);
+    color:hsl(218, 23%, 79%);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+    font-size: 1.6rem;
+    margin-bottom: 25px;
+}
+
+#yellow-colored-text {
+    color: hsl(71, 73%, 54%);
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Subscription-box */
+#subscription-box {
+    background-color: hsl(179, 62%, 43%);
+    color: hsl(200, 24%, 93%);
+    border-bottom-left-radius: 7px;
+}
+#price {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+#per-month {
+    color: hsla(195, 22%, 93%, 0.671);
+    font-size: 14px;
+    position: relative;
+    bottom: 5px;
+    left: 4px;
+}
+.btn {
+    background-color: hsl(71, 73%, 54%);
+    color:hsl(200, 24%, 93%);
+    padding: 15px 0;
+    border: solid 1px;
+    border-color: rgba(66, 151, 9, 0.959);
+    margin-top: 30px;
+}
+.btn:hover {
+    background-color: hsla(71, 73%, 54%, 0.89);
+}
+
+/* Why Us */
+#why-us {
+    background-color: hsl(179, 50%, 50%);
+    color: hsl(200, 24%, 93%);
+    border-bottom-right-radius: 7px;
+}
+#why-us p {
+    color:hsla(195, 22%, 93%, 0.719);
+    font-size: 15px;
+}
+
+/* Footer */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width: 375px) {
+    .container-fluid {
+        width: 86%;
+        margin-top: 20%;
+    }
+    .box {
+        padding: 20px 20px;
+    }
+    h1 {
+        font-size: 1.4rem;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+    #yellow-colored-text {
+        font-size: 1.2rem;
+    }
+    p {
+        font-size: 0.8rem;
+    }
+    #subscription-box {
+        border-bottom-left-radius: 0;
+    }
+    #why-us {
+        border-bottom-left-radius: 7px;
+    }
+}
